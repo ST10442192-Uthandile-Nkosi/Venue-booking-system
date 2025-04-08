@@ -1,4 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using VenueBookingSystem.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+//Register databse context
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
