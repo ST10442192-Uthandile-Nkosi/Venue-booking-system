@@ -51,6 +51,6 @@ INSERT INTO Booking(EventID, VenueID, BookingDate) VALUES
 
 
 -- TABLE MANIPUTLATION SECTION
-SELECT * FROM Venue WHERE VenueName = 'Wedding Venue';
+SELECT * FROM Venue 
 SELECT * FROM Event
 SELECT * FROM Booking
