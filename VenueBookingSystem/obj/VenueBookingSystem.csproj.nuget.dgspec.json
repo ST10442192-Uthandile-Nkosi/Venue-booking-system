@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/uthandilenkosi/VenueBookingSystem/VenueBookingSystem/VenueBookingSystem.csproj": {}
+    "/Users/uthandilenkosi/Documents/VENUE BOOKING SYSTEM/Venue-booking-system/VenueBookingSystem/VenueBookingSystem.csproj": {}
   },
   "projects": {
-    "/Users/uthandilenkosi/VenueBookingSystem/VenueBookingSystem/VenueBookingSystem.csproj": {
+    "/Users/uthandilenkosi/Documents/VENUE BOOKING SYSTEM/Venue-booking-system/VenueBookingSystem/VenueBookingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/uthandilenkosi/VenueBookingSystem/VenueBookingSystem/VenueBookingSystem.csproj",
+        "projectUniqueName": "/Users/uthandilenkosi/Documents/VENUE BOOKING SYSTEM/Venue-booking-system/VenueBookingSystem/VenueBookingSystem.csproj",
         "projectName": "VenueBookingSystem",
-        "projectPath": "/Users/uthandilenkosi/VenueBookingSystem/VenueBookingSystem/VenueBookingSystem.csproj",
+        "projectPath": "/Users/uthandilenkosi/Documents/VENUE BOOKING SYSTEM/Venue-booking-system/VenueBookingSystem/VenueBookingSystem.csproj",
         "packagesPath": "/Users/uthandilenkosi/.nuget/packages/",
-        "outputPath": "/Users/uthandilenkosi/VenueBookingSystem/VenueBookingSystem/obj/",
+        "outputPath": "/Users/uthandilenkosi/Documents/VENUE BOOKING SYSTEM/Venue-booking-system/VenueBookingSystem/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/uthandilenkosi/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,32 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
